@@ -1,0 +1,154 @@
+html {
+    background-color: darkgray;
+    font-size: 10px;
+    font-family: "Open Sans", sans-serif;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: darkgray;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    position: fixed;
+    width: 100%;
+    padding: 10px 20px;
+    background: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    z-index: 1000;
+}
+
+header {
+    top: 0;
+}
+
+footer {
+    bottom: 0;
+}
+
+header h1, footer p {
+    margin: 0;
+    font-size: 24px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 200px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"],
+input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+tbody tr:last-child td {
+    border-bottom: none;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #28a745;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #218838;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .btn {
+        font-size: 16px;
+    }
+}
+
+.pill-btn {
+    display: inline-block;
+    padding: 10px 25px;
+    margin: 10px 5px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #28a745;
+    text-decoration: none;
+    border-radius: 50px; /* Rayon pour la forme de pillule */
+    transition: background-color 0.3s ease;
+  }
+  
+  .pill-btn:hover {
+    background-color: #218838;
+  }
